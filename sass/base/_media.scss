@@ -118,3 +118,42 @@
         }
     }
 }
+@media (max-width: 320px) {
+    .promo {
+        .container {
+            max-width: 300px;
+        }
+        .header {
+            justify-content: center;
+            &__contacts {
+                margin-top: 20px;
+                order: 3;
+                .button {
+                    width: 160px;
+                    height: 30px;
+                    font-size: 13px;
+                }
+            }
+            &__phone {
+                font-size: 18px;
+            }
+        }
+        &__wrapper {
+        }
+        &__header {
+            font-size: 22px;
+        }
+        &__subheader {
+            font-size: 12px;
+        }
+        &__icons {
+            flex-wrap: wrap;
+            width: 300px;
+            
+        }
+        &__icon {
+            width: 80px;
+        }
+
+    }
+}
