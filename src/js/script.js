@@ -5,7 +5,13 @@ const slider = tns({
     autoplay: false,
     controls: false,
     nav: false,
-    speed: 1200
+    speed: 1200,
+    responsive: {
+        425: {
+            controls: false
+        }
+
+    }
 });
 
 document.querySelector('.prev').addEventListener('click', function()  {

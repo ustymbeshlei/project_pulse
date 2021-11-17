@@ -9,6 +9,11 @@
             max-width: 850px;
         }
     }
+    .carousel {
+        .container {
+            max-width: 850px;
+        }
+    }
 }
 @media (max-width: 1024px) {
     .promo{
@@ -34,8 +39,11 @@
         .title__left {
             font-size: 32px;
         }
-        
-
+    }
+    .carousel {
+        .container {
+            max-width: 800px;
+        }
     }
 }
 @media (max-width: 992px) {
@@ -103,10 +111,17 @@
         .title__left {
             font-size: 25px;
         }
-        
-
     }
-
+    .carousel {
+        .container {
+            max-width: 568px;
+            .carousel__inner{
+                img {
+                    width: 500px;
+                }
+            }
+        }
+    }
 }
 @media (max-width: 425px) {
     .promo{
@@ -173,6 +188,20 @@
             font-size: 20px;
         }
     }
+    .carousel {
+        .container {
+            max-width: 380px;
+            .carousel__inner{
+                img {
+                    width: 350px;
+                }
+            }
+            .prev, .next {
+                left: 50%;
+                display: none;
+               }
+        }
+    }
 }
 @media (max-width: 320px) {
     .promo {
@@ -227,6 +256,16 @@
         }
         .title__left {
             font-size: 18px;
+        }
+    }
+    .carousel {
+        .container {
+            max-width: 310px;
+            .carousel__inner{
+                img {
+                    width: 299px;
+                }
+            }
         }
     }
 }
