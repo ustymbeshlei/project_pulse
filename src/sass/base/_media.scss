@@ -140,6 +140,17 @@
             .catalog__content {
                 justify-content: center;
             }
+            
+        }
+    }
+    .review {  
+        &__customers {
+            max-width: 650px;
+            margin: 0 auto ;
+            
+        }
+        .title {
+            font-size: 28px;
         }
     }
 }
@@ -240,6 +251,32 @@
             }
         }
     }
+    .review { 
+        .container {
+            .title {
+                font-size: 28px;
+            }
+            .review__customers { 
+                max-width: 350px;
+                margin: 0 auto ;
+                .review__customer {
+                    flex-direction: column;
+                    img {
+                        width: 140px;
+                        height: 140px;
+                        margin: 0 auto;
+                        margin-bottom: 25px;
+                    }
+                    &_name, &_record {
+                        text-align: center;
+                    }
+                }
+            }
+              
+            
+        }
+          
+    }
 }
 @media (max-width: 320px) {
     .promo {
@@ -321,5 +358,22 @@
                 }
             }
         }
+    }
+    .review { 
+        .container {
+            .title {
+                font-size: 21px;
+            }
+            .review__customers { 
+                max-width: 260px;
+                .review__customer {
+                    img {
+                        width: 120px;
+                        height: 120px;
+                    }
+                }
+            }
+        }
+          
     }
 }

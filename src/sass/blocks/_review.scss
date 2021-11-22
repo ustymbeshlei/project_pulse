@@ -1,5 +1,8 @@
 .review {
     min-height: 920px;
+    &__customers {
+        margin-bottom: 48px;
+    }
     .container{
         .review__customer {
             margin-top: 60px;
