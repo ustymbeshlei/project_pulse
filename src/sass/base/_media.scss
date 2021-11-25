@@ -305,6 +305,13 @@
             padding: 50px;
         }
     }
+    .modal {
+        .modal__close {
+            top: 8px;
+            right: 8px;
+            font-size: 35px;
+        }
+    }
 }
 @media (max-width: 320px) {
     .promo {
@@ -427,5 +434,28 @@
             }
         }
         
+    }
+    .overlay {
+        .modal {
+            width: 320px;
+            &__subtitle {
+                font-size: 15px;
+            }
+            &__descr {
+                font-size: 12px;
+            }
+            .feed-form {
+                width: 240px;
+                input {
+                    height: 40px;
+                    font-size: 13px;
+                }
+                .button_submit {
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+            }
+        }
+
     }
 }
